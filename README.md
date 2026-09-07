@@ -6,7 +6,8 @@ B) Traduce el bytecode a código de máquina nativo previo al inicio de la ejecu
 Pregunta 2: ¿Cuál es la responsabilidad primordial del Linux Kernel dentro de la arquitectura de capas
 del sistema operativo Android?
 
-B) Proveer APIs públicas de alto nivel en lenguaje Java para el uso directo de los desarrolladores en sus Activities.
+C) Gestionar los controladores físicos de hardware de bajo nivel, la administración de la memoria RAM, los procesos
+del sistema y la capa de seguridad nativa
 
 Pregunta 3: ¿Qué función cumple la capa HAL (Hardware Abstraction Layer) en la arquitectura interna
 de Android?
