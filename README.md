@@ -17,3 +17,28 @@ Pregunta 4: Cuando una Activity en primer plano pierde el foco de forma parcial 
 
 B) onPause(), suspendiendo operaciones que consuman CPU pero manteniendo las variables y el estado visual cargados en memoria.
 
+Pregunta 5: Si se invoca un Intent explícito para navegar a una pantalla de confirmación, pero esta
+pantalla no se encuentra registrada en el archivo AndroidManifest.xml, ¿qué sucede en tiempo de
+ejecución?
+
+D) La aplicación se detiene inmediatamente arrojando un error crítico de tipo ActivityNotFoundException.
+
+Pregunta 6: Dentro de los componentes estructurales de una aplicación en Android, ¿cuál es el
+objetivo técnico de un Content Provider?
+
+B) Administrar y centralizar el acceso a repositorios de datos locales de forma segura, permitiendo el intercambio
+controlado de información entre distintas aplicaciones.
+
+Pregunta 7: ¿En qué escenario del desarrollo de Android es obligatorio el uso de un Intent de tipo
+Explícito?
+
+A) Cuando se solicita al sistema operativo abrir la aplicación de mapas externa para trazar una ruta.
+
+Pregunta 8: Cuando una Activity es enviada a segundo plano e ingresa en el estado de Detenida
+(onStop()), y el sistema operativo sufre de una necesidad crítica de memoria RAM para priorizar
+llamadas de voz u otras apps, ¿qué acción toma el sistema?
+
+C) Puede matar silenciosamente el proceso de la aplicación, forzando la recreación completa (onCreate()) de la Activity
+cuando el usuario regrese a ella.
+
+
